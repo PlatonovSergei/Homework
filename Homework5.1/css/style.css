@@ -3,8 +3,10 @@ body {
 }
 
 table {
-
-  margin: 70px auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -271px 0 0 -249px;
   border-spacing: 0;
 }
 
