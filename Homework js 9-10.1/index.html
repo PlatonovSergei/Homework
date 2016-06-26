@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Homework js 9-10.1</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/jquery.selectbox.css">
+    <link rel="stylesheet" href="css/jcarousel.basic.css">
+    <link rel="stylesheet" href="css/uniform.aristo.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js"  integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="  crossorigin="anonymous"></script>
+    <script src="js/jquery.jcarousel.min.js"></script>
+    <script src="js/jquery.uniform.js"></script>
+    <script src="js/jquery.checkbox.js"></script>
+    <script src="js/jquery.selectbox-0.6.1.js"></script>
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+  <header>
+      <h1>Путешествия</h1>
+  </header>
+
+    <div class="jcarousel-wrapper">
+        <div class="jcarousel">
+            <ul class="jcarousel-list">
+                <li><img src="img/img1.jpg" alt="img1"></li>
+                <li><img src="img/img2.jpg" alt="img2"></li>
+                <li><img src="img/img3.jpg" alt="img3"></li>
+                <li><img src="img/img4.jpg" alt="img4"></li>
+                <li><img src="img/img5.jpg" alt="img5"></li>
+                <li><img src="img/img6.jpg" alt="img6"></li>
+                <li><img src="img/img7.jpg" alt="img7"></li>
+            </ul>
+        </div>
+
+        <p class="photo-credits">
+             Photos by <a href="http://www.yana.kiev.ua">www.yana.kiev.ua</a>
+        </p>
+
+        <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+        <a href="#" class="jcarousel-control-next">&rsaquo;</a>
+
+        <p class="jcarousel-pagination">
+
+        </p>
+
+    </div>
+    <form action="#" method="post">
+
+
+        <div class="jquery-checkbox">
+            <h4>jQuery-checkbox</h4>
+            <div>
+                <label for="jq-ch-bx1">label 1</label>
+                <input type="checkbox" class="niceCheck" id="jq-ch-bx1" tabindex="1" />
+            </div>
+            <div>
+                <label for="jq-ch-bx2">label 2</label>
+                <input type="checkbox" class="niceCheck" checked="checked" id="jq-ch-bx2" tabindex="2" value="2" />
+            </div>
+            <div>
+                <label for="jq-ch-bx3">label 3</label>
+                <input type="checkbox" class="niceCheck" id="jq-ch-bx3" checked="checked" disabled="disabled" />
+            </div>
+        </div>
+
+        <div class="jquery-selectbox">
+            <select name="rest" id="rest">
+                <option value="Italy" selected>Италия</option>
+                <option value="Spain">Испания</option>
+                <option value="Austrelia">Австралия</option>
+                <option value="China">Китай</option>
+                <option value="Grese">Греция</option>
+                <option value="Porto">Португалия</option>
+                <option value="England">Англия</option>
+                <option value="France">Франция</option>
+            </select>
+        </div>
+
+        <div class="css-checkbox">
+            <h4>css-checkbox</h4>
+            <div>
+                <input type="checkbox" id="css-ch-bx1" tabindex="1" class="css-ch-bx">
+                <label class="css-ch-bx-text" for="css-ch-bx1">label 1</label>
+            </div>
+            <div>
+                <input type="checkbox" id="css-ch-bx2" tabindex="2" checked="checked" class="css-ch-bx">
+                <label class="css-ch-bx-text" for="css-ch-bx2">label 2</label>
+            </div>
+            <div>
+                <input type="checkbox" id="css-ch-bx3" tabindex="3" checked="checked" disabled="disabled" class="css-ch-bx">
+                <label class="css-ch-bx-text" for="css-ch-bx3">label 3</label>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
