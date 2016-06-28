@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Homework js 11-12.2 bonus.3</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js"  integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="  crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/lodash/4.13.1/lodash.min.js"></script>
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+
+    <script type="text/html" id="resume">
+     <% for ( var i = 0; i < data.length; i++ ) { %>
+     <div class="info">
+
+      <p class="header"><%= data[i].header %></p>
+      <div class="photo">
+      <img src="<%= data[i].photo %>" width="25%" height="25%" alt="photo">
+
+      </div>
+      <p><%= data[i].line1 %></p>
+      <hr>
+      <P><%= data[i].line2 %></P>
+      <ul>
+        <li><%= data[i].line3 %></li>
+        <li><%= data[i].line4 %></li>
+        <li><%= data[i].line5 %></li>
+      </ul>
+      <hr>
+      <p class="my-num"><%= data[i].line6 %></p>
+      <p><%= data[i].contact %></p>
+      <p class="my-link"><%= data[i].line7 %></p>
+      <a href="<%= data[i].line8 %>"><%= data[i].link %></a>
+      <hr>
+      <p class="feedback"><%= data[i].line9 %></p>
+      <p><%= data[i].line10 %></p>
+
+     </div>
+     <% }; %>
+    </script>
+
+
+  </body>
+</html>

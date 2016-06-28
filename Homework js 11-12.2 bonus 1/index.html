@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Homework js 11-12.2 bonus.1</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js"  integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="  crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/lodash/4.13.1/lodash.min.js"></script>
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+
+    <script type="text/html" id="resume">
+     <div class="info">
+      <p class="header"><%= header %></p>
+      <div class="photo">
+      <img src="<%= photo %>" width="25%" height="25%" alt="photo">
+      </div>
+      <p><%= line1 %></p>
+      <hr>
+      <P><%= line2 %></P>
+      <ul>
+        <li><%= line3 %></li>
+        <li><%= line4 %></li>
+        <li><%= line5 %></li>
+      </ul>
+      <hr>
+      <p class="my-num"><%= line6 %></p>
+      <p><%= contact %></p>
+      <p class="my-link"><%= line7 %></p>
+      <a href="<%= line8 %>"><%= link %></a>
+      <hr>
+      <p class="feedback"><%= line9 %></p>
+      <p><%= line10 %></p>
+     </div>
+    </script>
+  
+  </body>
+</html>
