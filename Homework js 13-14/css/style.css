@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+  background: #EAE6E6;
+}
+
+.wrapper {
+    margin: 0 auto;
+    position: relative;
+    width: 45%;
+    height: 630px;
+    background: #FFFFFF;
+    border: 1px solid black;
+    padding-left: 65px;
+    margin-top: 30px;
+}
+
+h3 {
+    width: 50%;
+    padding-left: 115px;
+    margin: 25px;
+    text-decoration: underline;
+}
+
+form {
+margin-left: 20px;
+margin-top: 30px;
+}
+
+form>div {
+    margin-top: 10px;
+}
+
+p {
+    margin-left: 6px;
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+input {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+button {
+    height: 50px;
+    margin-top: 67px;
+    margin-left: 87px;
+    width: 300px;
+    border: 2px solid black;
+    background: #8496F1;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 49%;
+    width: 482px;
+    height: 300px;
+    margin: -150px 0 0 -250px;
+    padding: 20px;
+    background: #f9f9f9;
+    border: 1px solid #bbb;
+    box-shadow: 0 0 10px #bbb, 0 0 10px #bbb;
+}
+
+.modal button {
+    margin: 37px 0 10px 151px;
+    border: 0;
+    width: 177px;
+    background: rgba(47, 169, 209, 0.89);
+    color: #fff;
+    font-size: 12px;
+}
+
+.modal p {
+    width: 300px;
+    margin: 10px auto;;
+    text-align: center;
+    padding: 5px ;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+
+.modal hr {
+    margin-bottom: 7px;
+    color: rgba(39, 28, 215, 0.9)
+}
+
+.modal h {
+  padding-top: 30px;
+  padding-left: 150px;
+}
+
+.correct {
+    background: rgba(18, 197, 14, 0.63);
+}
+
+.incorrect {
+    background: rgba(249, 105, 75, 0.67);
+}
+
+h4 {
+    padding: 10px;
+    text-align: center;
+}
+
+.result {
+    margin-top: 10px;
+    font-weight: normal;
+}
