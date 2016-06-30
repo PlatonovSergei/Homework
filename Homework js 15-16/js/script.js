@@ -48,7 +48,7 @@ $(function () {
 
 
     Human.prototype.does = function() {
-        console.log('Занятие: ' + this.work);
+        console.log('Занятие: ' + this.practice);
     }
 
 
@@ -56,14 +56,14 @@ $(function () {
         Human.apply(this, arguments);
         this.placework = placework;
         this.salary = salary;
-        this.work = 'Я работаю!';
+        this.practice = 'Я работаю!';
     }
 
     function Student(name, age, gender, height, weight, study, scholarship) {
         Human.apply(this, arguments);
-        this.study = study;
+        this.placestudy = study;
         this.scholarship = scholarship;
-        this.work = 'Смотрю сериалы';
+        this.practice = 'Смотрю сериалы';
     }
 
 
