@@ -1,6 +1,6 @@
 @import 'variables';
 
-
+//**wrapper
 .wrapper {
   width: 1160px;
   height: inherit;
@@ -8,7 +8,9 @@
   background: $color1;
 }
 
+//**
 
+//**header
 header {
   width: 100%;
   height: 112px;
@@ -61,7 +63,9 @@ header {
   background-position-x: -126px;
 }
 
+//**
 
+//**navigation
 nav {
   width: 100%;
   height: 56px;
@@ -120,7 +124,9 @@ nav {
   left: 210px;
 }
 
+//**
 
+//**carousel
 .carousel {
   width: 100%;
   margin-top: 40px;
@@ -191,7 +197,9 @@ nav {
   background: $color8;
 }
 
+//**
 
+//**issue block
 .issue {
   width: 100%;
   height: 320px;
@@ -283,7 +291,9 @@ nav {
   background-position: -11px 0;
 }
 
+//**
 
+//**our services
 .service {
   width: 100%;
   height: 500px;
@@ -342,7 +352,7 @@ nav {
   text-align: center;
 }
 
-
+//**
 
 .info {
   width: 100%;
@@ -356,7 +366,7 @@ nav {
   padding-top: 65px;
 }
 
-
+//**news
 .news {
   float: left;
 }
@@ -446,6 +456,9 @@ nav {
   font-size: 13px;
 }
 
+//**
+
+//**banners
 .banner {
   width: 560px;
   float: right;
@@ -498,7 +511,8 @@ nav {
   line-height: 20px;
 }
 
-
+//**
+//**brands
 .brand {
   width: 100%;
   height: 240px;
@@ -518,12 +532,15 @@ nav {
   margin-right: 0;
 }
 
+//**
 
+//** footer
 footer {
   width: 100%;
   background: $color2;
 }
 
+//*footer menu
 .menu {
   width: 1160px;
   height: 325px;
@@ -571,7 +588,7 @@ footer {
   color: $color4;
 }
 
-
+//** footer contacts
 .contacts {
   width: 100%;
   background: $color5;
@@ -614,3 +631,5 @@ footer {
   display: inline-block;
   margin-right: 14px;
 }
+
+//*
