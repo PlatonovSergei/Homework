@@ -1,0 +1,38 @@
+@import "reset";
+@import "fonts";
+@import "variables";
+@import "jquery.bxslider";
+@import "desktop";
+
+.about__item {
+  width: 30%;
+
+  &--wrapper {
+    padding: 210px 10px 5px 20px;
+  }
+
+  &__text {
+    color: $color2;
+  }
+}
+
+.partners__item {
+  margin-right: 3%;
+}
+
+.search {
+  &__field {
+    display: block;
+    float: left;
+    margin-right: 1%;
+    margin-left: 31.5%;
+  }
+
+  &__button {
+    display: block;
+    float: left;
+    margin: 0 auto;
+  }
+}
+
+
