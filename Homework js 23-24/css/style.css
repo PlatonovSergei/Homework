@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 20px 40px;
+    background: #2fc6f6;
+}
+
+.list {
+    padding-left: 0;
+}
+
+.list__item {
+    width: 100%;
+    display: block;
+    float: left;
+    color: #422de4;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+    list-style: none;
+}
+
+.list__item__control {
+    float: right;
+}
+
+.list__item__control__button,
+.item-add__button {
+    padding: 5px 10px;
+    background: #422de4;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.item-add__value {
+    width: 60%;
+    height: 20px;
+    display: inline-block;
+    border: 1px solid #422de4;
+}
